@@ -378,13 +378,9 @@ if emulate_delivery:
 
         create_jira_plots = True
         if create_jira_plots:
-            # # make figures for JWSTSIAF-160 Jira ticket
-            selected_aperture_names = [['NRCA2_MASK210R', 'NRCA2_FULL_MASK210R',
-                                        'NRCA5_MASK335R','NRCA5_FULL_MASK335R',
-                                        'NRCA5_MASK430R','NRCA5_FULL_MASK430R',
-                                        'NRCA2_FULL_WEDGE_RND','NRCA4_FULL_WEDGE_BAR',
-                                        'NRCA5_FULL_WEDGE_RND','NRCA5_FULL_WEDGE_BAR'
-                                       ]
+            # # make figures for UPP_practice
+            selected_aperture_names = [['NRCB1_SUB64P','NRCB5_SUB64P','NRCB1_FULL','NRCB5_FULL'],
+                                        ['NRCA5_FSTAMASK335R','NRCA5_FULL_FSTAMASK335R']
                                        ]
 
             for selected_aperture_name in selected_aperture_names:
